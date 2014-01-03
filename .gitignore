@@ -1,0 +1,9 @@
+.DS_Store
+
+*.swp
+
+/host/out/
+
+/host/lib/
+
+/host/pivotallightshost.log

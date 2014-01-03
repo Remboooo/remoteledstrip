@@ -1,0 +1,9 @@
+ARDUINO_LIBS =
+SERIAL_PORT = $(ARDUINO_PORT)
+BOARD_TAG = 
+
+SERIAL_BAUDRATE = 115200
+
+ifndef ARDUINO_PORT
+ $(error ARDUINO_PORT env var is not set)
+endif
